@@ -5,9 +5,9 @@ function produceDrivingRange(blockRange) {
     let distance = Math.abs(end - start)
 
     if (blockRange < distance) {
-      true
+      return true
     } else {
-      false
+      return false
     }
   }
 }
